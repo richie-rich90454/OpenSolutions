@@ -71,6 +71,7 @@ public class User {
     @Column(name = "updated_at", nullable = false)
     private LocalDateTime updatedAt;
 
+    // Lifecycle callback: set timestamps and defaults before persist
     @PrePersist
     protected void onCreate() {
         createdAt = LocalDateTime.now();
