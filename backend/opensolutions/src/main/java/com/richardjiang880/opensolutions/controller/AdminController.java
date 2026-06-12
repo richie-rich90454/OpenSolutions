@@ -18,6 +18,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/admin")
+/**
+ * REST controller for admin operations including report management.
+ */
 public class AdminController {
 
     private final ReportRepository reportRepository;
