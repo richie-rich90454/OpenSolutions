@@ -30,6 +30,7 @@ public class UserService {
         this.subjectRepository = subjectRepository;
     }
 
+    @Transactional(readOnly = true)
     public UserProfileResponse getProfile(Long userId) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new IllegalArgumentException("User not found"));
