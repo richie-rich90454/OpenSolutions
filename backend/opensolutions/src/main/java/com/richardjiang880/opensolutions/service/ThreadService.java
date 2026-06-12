@@ -123,7 +123,7 @@ public class ThreadService {
                 post.getCreatedAt()
         );
 
-        // Broadcast to channel thread subscribers
+        // Broadcast new post to all subscribers of this channel thread
         messagingTemplate.convertAndSend("/topic/channel-thread/" + threadId, response);
 
         return response;
