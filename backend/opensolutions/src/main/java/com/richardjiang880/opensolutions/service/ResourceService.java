@@ -98,7 +98,7 @@ public class ResourceService {
                 .build();
         resourceThreadRepository.save(thread);
 
-        // Award credits for contributing
+        // Award 10 credits for contributing a resource
         user.setCredits(user.getCredits() + 10);
 
         return resource;
