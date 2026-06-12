@@ -1,4 +1,4 @@
-﻿[Unit]
+[Unit]
 Description=OpenSolutions Spring Boot Application
 After=network.target mysql.service
 
@@ -6,7 +6,7 @@ After=network.target mysql.service
 Type=simple
 User=opensolutions
 WorkingDirectory=/opt/opensolutions
-ExecStart=/usr/bin/java -jar /opt/opensolutions/opensolutions.jar
+ExecStart=/usr/bin/java -Xmx512m -jar /opt/opensolutions/opensolutions.jar
 Restart=on-failure
 RestartSec=10
 
