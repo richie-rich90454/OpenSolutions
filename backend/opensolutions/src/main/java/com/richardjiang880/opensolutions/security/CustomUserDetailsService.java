@@ -32,6 +32,7 @@ public class CustomUserDetailsService implements UserDetailsService {
                 user.getPassword(),
                 user.getVerified(), // account is enabled only after email verification
                 true, true, true,
+                // Spring Security requires ROLE_ prefix for hasRole() checks
                 List.of(new SimpleGrantedAuthority("ROLE_" + user.getRole().name()))
         );
     }
