@@ -156,7 +156,7 @@ export default function AppLayout() {
       <div className={styles.desktopDrawer}>
         <InlineDrawer open position="start" size="small">
           <DrawerHeader>
-            <Title3>OpenSolutions</Title3>
+            <Title3>LernChih</Title3>
           </DrawerHeader>
           <DrawerBody>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
@@ -174,7 +174,7 @@ export default function AppLayout() {
         onOpenChange={(_: unknown, data: { open: boolean }) => setMobileOpen(data.open)}
       >
         <DrawerHeader>
-          <Title3>OpenSolutions</Title3>
+          <Title3>LernChih</Title3>
         </DrawerHeader>
         <DrawerBody>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
@@ -193,7 +193,7 @@ export default function AppLayout() {
               className={styles.mobileMenuButton}
               onClick={() => setMobileOpen(true)}
             />
-            <Title3 className={styles.desktopDrawer} style={{ display: 'none' }}>OpenSolutions</Title3>
+            <Title3 className={styles.desktopDrawer} style={{ display: 'none' }}>LernChih</Title3>
           </div>
 
           <Menu>

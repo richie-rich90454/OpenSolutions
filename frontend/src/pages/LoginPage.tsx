@@ -66,7 +66,7 @@ export default function LoginPage() {
     <div className={styles.pageContainer}>
       <Card className={styles.loginCard}>
         <div className={styles.cardBody}>
-          <Title3>Sign in to OpenSolutions</Title3>
+          <Title3>Sign in to LernChih</Title3>
 
           {loginMutation.isError && (
             <MessageBar intent="error">
