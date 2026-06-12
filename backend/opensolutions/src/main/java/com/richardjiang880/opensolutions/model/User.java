@@ -61,7 +61,7 @@ public class User {
     @Builder.Default
     private List<Subject> subjects = new ArrayList<>();
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    // orphanRemoval ensures social links are deleted when removed from the list
     @Builder.Default
     private List<UserSocial> userSocials = new ArrayList<>();
 
