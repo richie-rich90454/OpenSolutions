@@ -56,6 +56,7 @@ public class SecurityConfig {
         return http.build();
     }
 
+    // CORS configuration for frontend development and production
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
