@@ -22,6 +22,11 @@ public class FileController {
 
     @GetMapping("/{filename}")
     public ResponseEntity<Resource> serveFile(@PathVariable String filename) {
+        // Prevent path traversal attacks
+        if (filename.contains("..")) {
+            return ResponseEntity.badRequest().build();
+        }
+
         try {
             Path filePath = Paths.get(uploadDir).resolve(filename).normalize();
             Resource resource = new UrlResource(filePath.toUri());
