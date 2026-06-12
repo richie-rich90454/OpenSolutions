@@ -84,6 +84,7 @@ public class User {
         }
     }
 
+    // Lifecycle callback: update timestamp on every modification
     @PreUpdate
     protected void onUpdate() {
         updatedAt = LocalDateTime.now();
