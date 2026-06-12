@@ -11,6 +11,10 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+/**
+ * Resource entity for user-contributed educational content.
+ * Supports file uploads, external links, and upvote tracking.
+ */
 public class Resource {
 
     @Id
