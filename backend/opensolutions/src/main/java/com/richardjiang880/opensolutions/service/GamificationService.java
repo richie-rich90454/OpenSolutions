@@ -63,6 +63,7 @@ public class GamificationService {
         }
     }
 
+    @Transactional(readOnly = true)
     public List<LeaderboardEntry> getLeaderboard() {
         return userRepository.findTop50ByCreditsDesc().stream()
                 .map(user -> new LeaderboardEntry(
