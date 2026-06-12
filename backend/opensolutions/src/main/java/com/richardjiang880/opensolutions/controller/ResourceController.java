@@ -136,6 +136,7 @@ public class ResourceController {
         return ResponseEntity.ok(gamificationService.getLeaderboard());
     }
 
+    // Resolve authenticated User entity from Spring Security UserDetails
     private User getUserFromDetails(UserDetails userDetails) {
         if (userDetails == null) {
             throw new IllegalStateException("No authenticated user found");
