@@ -21,6 +21,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/channels")
+/**
+ * REST controller for channel and channel thread operations.
+ */
 public class ChannelController {
 
     private final ChannelRepository channelRepository;
