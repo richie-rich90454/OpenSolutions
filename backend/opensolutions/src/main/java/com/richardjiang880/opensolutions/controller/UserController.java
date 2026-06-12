@@ -14,6 +14,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
+/**
+ * REST controller for user profile and social link management.
+ */
 public class UserController {
 
     private final UserService userService;
