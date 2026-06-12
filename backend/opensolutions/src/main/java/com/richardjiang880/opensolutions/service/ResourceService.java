@@ -175,6 +175,7 @@ public class ResourceService {
     }
 
     public void decrementUpvoteCount(Resource resource) {
+        // Ensure upvote count never goes below zero
         int newCount = Math.max(0, resource.getUpvoteCount() - 1);
         resource.setUpvoteCount(newCount);
         resourceRepository.save(resource);
