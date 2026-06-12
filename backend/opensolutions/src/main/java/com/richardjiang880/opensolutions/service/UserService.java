@@ -37,6 +37,7 @@ public class UserService {
         return toProfileResponse(user);
     }
 
+    @Transactional(readOnly = true)
     public UserProfileResponse getMyProfile(User user) {
         return toProfileResponse(user);
     }
