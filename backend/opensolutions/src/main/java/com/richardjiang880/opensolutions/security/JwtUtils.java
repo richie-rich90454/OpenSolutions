@@ -23,6 +23,7 @@ public class JwtUtils {
     @Value("${app.jwt.expiration}")
     private long jwtExpiration;
 
+    // HMAC-SHA key derived from configured secret
     private SecretKey getSigningKey() {
         return Keys.hmacShaKeyFor(jwtSecret.getBytes(StandardCharsets.UTF_8));
     }
