@@ -137,6 +137,7 @@ public class ThreadService {
                 ));
     }
 
+    @Transactional(readOnly = true)
     public Page<PostResponse> getChannelPosts(Long threadId, Pageable pageable) {
         return channelPostRepository.findByThreadIdOrderByCreatedAtAsc(threadId, pageable)
                 .map(p -> new PostResponse(
