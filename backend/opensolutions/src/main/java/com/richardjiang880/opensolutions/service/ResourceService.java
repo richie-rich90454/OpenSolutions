@@ -108,6 +108,7 @@ public class ResourceService {
         return resourceRepository.findAll(pageable);
     }
 
+    @Transactional(readOnly = true)
     public ResourceDetailResponse getResourceDetail(Long resourceId, Long currentUserId) {
         Resource resource = resourceRepository.findById(resourceId)
                 .orElseThrow(() -> new IllegalArgumentException("Resource not found"));
