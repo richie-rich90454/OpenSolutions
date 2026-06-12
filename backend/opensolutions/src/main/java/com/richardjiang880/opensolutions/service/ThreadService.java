@@ -1,8 +1,8 @@
-package com.richardjiang880.opensolutions.service;
+package com.richardjiang880.lernchih.service;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.model.*;
-import com.richardjiang880.opensolutions.repository.*;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.model.*;
+import com.richardjiang880.lernchih.repository.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;

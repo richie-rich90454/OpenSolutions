@@ -1,13 +1,13 @@
-package com.richardjiang880.opensolutions.controller;
+package com.richardjiang880.lernchih.controller;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.model.Channel;
-import com.richardjiang880.opensolutions.model.ChannelThread;
-import com.richardjiang880.opensolutions.model.User;
-import com.richardjiang880.opensolutions.repository.ChannelRepository;
-import com.richardjiang880.opensolutions.repository.ChannelThreadRepository;
-import com.richardjiang880.opensolutions.repository.UserRepository;
-import com.richardjiang880.opensolutions.service.ThreadService;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.model.Channel;
+import com.richardjiang880.lernchih.model.ChannelThread;
+import com.richardjiang880.lernchih.model.User;
+import com.richardjiang880.lernchih.repository.ChannelRepository;
+import com.richardjiang880.lernchih.repository.ChannelThreadRepository;
+import com.richardjiang880.lernchih.repository.UserRepository;
+import com.richardjiang880.lernchih.service.ThreadService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

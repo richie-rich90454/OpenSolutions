@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.service;
+package com.richardjiang880.lernchih.service;
 
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;

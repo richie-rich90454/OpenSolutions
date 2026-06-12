@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.dto;
+package com.richardjiang880.lernchih.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

@@ -1,7 +1,7 @@
-package com.richardjiang880.opensolutions.controller;
+package com.richardjiang880.lernchih.controller;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.service.AuthService;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.service.AuthService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

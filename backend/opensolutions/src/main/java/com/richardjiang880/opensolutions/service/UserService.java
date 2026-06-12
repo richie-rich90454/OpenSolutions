@@ -1,12 +1,12 @@
-package com.richardjiang880.opensolutions.service;
+package com.richardjiang880.lernchih.service;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.model.Subject;
-import com.richardjiang880.opensolutions.model.User;
-import com.richardjiang880.opensolutions.model.UserSocial;
-import com.richardjiang880.opensolutions.repository.SubjectRepository;
-import com.richardjiang880.opensolutions.repository.UserRepository;
-import com.richardjiang880.opensolutions.repository.UserSocialRepository;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.model.Subject;
+import com.richardjiang880.lernchih.model.User;
+import com.richardjiang880.lernchih.model.UserSocial;
+import com.richardjiang880.lernchih.repository.SubjectRepository;
+import com.richardjiang880.lernchih.repository.UserRepository;
+import com.richardjiang880.lernchih.repository.UserSocialRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

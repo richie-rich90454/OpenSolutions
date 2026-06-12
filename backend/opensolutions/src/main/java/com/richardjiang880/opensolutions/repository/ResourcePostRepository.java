@@ -1,6 +1,6 @@
-package com.richardjiang880.opensolutions.repository;
+package com.richardjiang880.lernchih.repository;
 
-import com.richardjiang880.opensolutions.model.ResourcePost;
+import com.richardjiang880.lernchih.model.ResourcePost;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

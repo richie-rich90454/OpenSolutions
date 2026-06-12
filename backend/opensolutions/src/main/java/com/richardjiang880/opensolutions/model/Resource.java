@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.model;
+package com.richardjiang880.lernchih.model;
 
 import jakarta.persistence.*;
 import lombok.*;

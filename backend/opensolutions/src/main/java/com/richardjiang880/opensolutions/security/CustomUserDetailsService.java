@@ -1,7 +1,7 @@
-package com.richardjiang880.opensolutions.security;
+package com.richardjiang880.lernchih.security;
 
-import com.richardjiang880.opensolutions.model.User;
-import com.richardjiang880.opensolutions.repository.UserRepository;
+import com.richardjiang880.lernchih.model.User;
+import com.richardjiang880.lernchih.repository.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

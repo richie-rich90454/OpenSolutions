@@ -1,13 +1,13 @@
-package com.richardjiang880.opensolutions.controller;
+package com.richardjiang880.lernchih.controller;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.model.Resource;
-import com.richardjiang880.opensolutions.model.ResourceCategory;
-import com.richardjiang880.opensolutions.model.User;
-import com.richardjiang880.opensolutions.repository.UpvoteRepository;
-import com.richardjiang880.opensolutions.repository.UserRepository;
-import com.richardjiang880.opensolutions.service.GamificationService;
-import com.richardjiang880.opensolutions.service.ResourceService;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.model.Resource;
+import com.richardjiang880.lernchih.model.ResourceCategory;
+import com.richardjiang880.lernchih.model.User;
+import com.richardjiang880.lernchih.repository.UpvoteRepository;
+import com.richardjiang880.lernchih.repository.UserRepository;
+import com.richardjiang880.lernchih.service.GamificationService;
+import com.richardjiang880.lernchih.service.ResourceService;
 import jakarta.validation.Valid;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

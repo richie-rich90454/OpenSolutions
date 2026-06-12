@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.exception;
+package com.richardjiang880.lernchih.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,9 +1,9 @@
-package com.richardjiang880.opensolutions.dto;
+package com.richardjiang880.lernchih.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import com.richardjiang880.opensolutions.model.ResourceCategory;
-import com.richardjiang880.opensolutions.model.ResourceType;
+import com.richardjiang880.lernchih.model.ResourceCategory;
+import com.richardjiang880.lernchih.model.ResourceType;
 
 /**
  * Not a record — used as a multipart form body, which Spring can't bind to records easily.

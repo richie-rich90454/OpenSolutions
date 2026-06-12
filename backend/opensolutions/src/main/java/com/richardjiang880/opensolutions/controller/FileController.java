@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.controller;
+package com.richardjiang880.lernchih.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;

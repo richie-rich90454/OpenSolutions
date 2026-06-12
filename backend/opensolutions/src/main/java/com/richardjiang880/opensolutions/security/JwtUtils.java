@@ -1,6 +1,6 @@
-package com.richardjiang880.opensolutions.security;
+package com.richardjiang880.lernchih.security;
 
-import com.richardjiang880.opensolutions.model.User;
+import com.richardjiang880.lernchih.model.User;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;

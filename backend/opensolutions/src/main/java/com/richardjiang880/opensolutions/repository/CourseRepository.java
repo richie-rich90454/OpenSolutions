@@ -1,6 +1,6 @@
-package com.richardjiang880.opensolutions.repository;
+package com.richardjiang880.lernchih.repository;
 
-import com.richardjiang880.opensolutions.model.Course;
+import com.richardjiang880.lernchih.model.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

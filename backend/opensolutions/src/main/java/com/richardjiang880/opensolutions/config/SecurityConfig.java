@@ -1,6 +1,6 @@
-package com.richardjiang880.opensolutions.config;
+package com.richardjiang880.lernchih.config;
 
-import com.richardjiang880.opensolutions.security.JwtAuthFilter;
+import com.richardjiang880.lernchih.security.JwtAuthFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;

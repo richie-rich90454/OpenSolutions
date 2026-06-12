@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.security;
+package com.richardjiang880.lernchih.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

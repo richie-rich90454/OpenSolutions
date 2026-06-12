@@ -1,10 +1,10 @@
-package com.richardjiang880.opensolutions.service;
+package com.richardjiang880.lernchih.service;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.model.Role;
-import com.richardjiang880.opensolutions.model.User;
-import com.richardjiang880.opensolutions.repository.UserRepository;
-import com.richardjiang880.opensolutions.security.JwtUtils;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.model.Role;
+import com.richardjiang880.lernchih.model.User;
+import com.richardjiang880.lernchih.repository.UserRepository;
+import com.richardjiang880.lernchih.security.JwtUtils;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

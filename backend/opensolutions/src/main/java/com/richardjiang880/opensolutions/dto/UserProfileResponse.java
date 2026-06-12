@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions.dto;
+package com.richardjiang880.lernchih.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;

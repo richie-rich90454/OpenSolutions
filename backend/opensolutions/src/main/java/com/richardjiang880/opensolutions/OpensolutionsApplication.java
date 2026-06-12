@@ -1,4 +1,4 @@
-package com.richardjiang880.opensolutions;
+package com.richardjiang880.lernchih;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

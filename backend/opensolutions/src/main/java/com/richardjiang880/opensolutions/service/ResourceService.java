@@ -1,8 +1,8 @@
-package com.richardjiang880.opensolutions.service;
+package com.richardjiang880.lernchih.service;
 
-import com.richardjiang880.opensolutions.dto.*;
-import com.richardjiang880.opensolutions.model.*;
-import com.richardjiang880.opensolutions.repository.*;
+import com.richardjiang880.lernchih.dto.*;
+import com.richardjiang880.lernchih.model.*;
+import com.richardjiang880.lernchih.repository.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

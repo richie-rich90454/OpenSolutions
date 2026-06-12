@@ -1,12 +1,12 @@
-package com.richardjiang880.opensolutions.service;
+package com.richardjiang880.lernchih.service;
 
-import com.richardjiang880.opensolutions.dto.LeaderboardEntry;
-import com.richardjiang880.opensolutions.model.Resource;
-import com.richardjiang880.opensolutions.model.Upvote;
-import com.richardjiang880.opensolutions.model.User;
-import com.richardjiang880.opensolutions.repository.ResourceRepository;
-import com.richardjiang880.opensolutions.repository.UpvoteRepository;
-import com.richardjiang880.opensolutions.repository.UserRepository;
+import com.richardjiang880.lernchih.dto.LeaderboardEntry;
+import com.richardjiang880.lernchih.model.Resource;
+import com.richardjiang880.lernchih.model.Upvote;
+import com.richardjiang880.lernchih.model.User;
+import com.richardjiang880.lernchih.repository.ResourceRepository;
+import com.richardjiang880.lernchih.repository.UpvoteRepository;
+import com.richardjiang880.lernchih.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
