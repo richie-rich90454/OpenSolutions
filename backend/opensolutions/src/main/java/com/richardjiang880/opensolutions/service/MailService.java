@@ -6,6 +6,9 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 @Service
+/**
+ * Email service for sending verification codes asynchronously.
+ */
 public class MailService {
 
     private final JavaMailSender mailSender;
