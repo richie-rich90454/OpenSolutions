@@ -60,6 +60,7 @@ public class AuthService {
                 .role(Role.STUDENT)
                 .verified(false)
                 .verificationCode(verificationCode)
+                // Verification code expires after 15 minutes
                 .verificationCodeExpiry(LocalDateTime.now().plusMinutes(15))
                 .credits(0)
                 .build();
