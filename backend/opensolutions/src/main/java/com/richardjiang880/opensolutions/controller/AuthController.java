@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
+/**
+ * REST controller for authentication endpoints.
+ */
 public class AuthController {
 
     private final AuthService authService;
