@@ -47,7 +47,7 @@ public class GamificationService {
             resource.setUpvoteCount(Math.max(0, resource.getUpvoteCount() - 1));
             resourceRepository.save(resource);
 
-            return false; // upvote removed
+            return false; // upvote was removed
         } else {
             // Add the upvote and award 2 credits
             Upvote upvote = Upvote.builder()
@@ -62,7 +62,7 @@ public class GamificationService {
             resource.setUpvoteCount(resource.getUpvoteCount() + 1);
             resourceRepository.save(resource);
 
-            return true; // upvote added
+            return true; // upvote was added
         }
     }
 
