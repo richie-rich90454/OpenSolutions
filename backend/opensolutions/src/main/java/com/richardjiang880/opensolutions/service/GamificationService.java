@@ -49,7 +49,7 @@ public class GamificationService {
 
             return false; // upvote removed
         } else {
-            // Add the upvote and award credits
+            // Add the upvote and award 2 credits
             Upvote upvote = Upvote.builder()
                     .user(currentUser)
                     .resource(resource)
