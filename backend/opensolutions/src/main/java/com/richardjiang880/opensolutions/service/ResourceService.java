@@ -92,7 +92,7 @@ public class ResourceService {
 
         resource = resourceRepository.save(resource);
 
-        // Every resource gets its own discussion thread
+        // Auto-create a discussion thread for each new resource
         ResourceThread thread = ResourceThread.builder()
                 .resource(resource)
                 .build();
