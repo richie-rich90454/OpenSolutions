@@ -4,7 +4,7 @@
 
 Do not open a public issue for security vulnerabilities.
 
-Instead, email **security@opensolutions.dev** with:
+Instead, email **security@lernchih.dev** with:
 
 - A description of the vulnerability
 - Steps to reproduce

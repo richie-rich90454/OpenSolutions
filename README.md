@@ -1,10 +1,12 @@
-# OpenSolutions
+# LernChih
 
 A student forum for sharing learning resources, discussions, and bypassing bad teaching.
 
+*LernChih* — from Germanic *Lern* (learn) and Han *Chih* (智, wisdom).
+
 ## What
 
-OpenSolutions is a full-stack web application where students share resources, discuss in channels, earn credits through upvotes and uploads, and moderate content together.
+LernChih is a full-stack web application where students share resources, discuss in channels, earn credits through upvotes and uploads, and moderate content together.
 
 ## Stack
 
@@ -22,7 +24,7 @@ OpenSolutions is a full-stack web application where students share resources, di
 
 ```bash
 # Backend
-cd backend/opensolutions
+cd backend/lernchih
 ./mvnw spring-boot:run
 
 # Frontend
@@ -35,7 +37,7 @@ The frontend dev server proxies API requests to `localhost:8080`.
 
 ## Configuration
 
-Backend configuration lives in `backend/opensolutions/src/main/resources/application.properties`.
+Backend configuration lives in `backend/lernchih/src/main/resources/application.properties`.
 
 Key properties:
 - `spring.datasource.*` — MySQL connection
@@ -50,19 +52,19 @@ Key properties:
 ./build.ps1
 
 # Package single JAR
-cd backend/opensolutions
+cd backend/lernchih
 ./mvnw package -DskipTests
 
 # Run
-java -Xmx512m -jar target/opensolutions-0.0.1-SNAPSHOT.jar
+java -Xmx512m -jar target/lernchih-0.0.1-SNAPSHOT.jar
 ```
 
-A systemd service file is provided at `opensolutions.service`.
+A systemd service file is provided at `lernchih.service`.
 
 ## Project Structure
 
 ```
-backend/opensolutions/src/main/java/com/richardjiang880/opensolutions/
+backend/lernchih/src/main/java/com/richardjiang880/lernchih/
   config/          Security, WebSocket configuration
   controller/      REST API endpoints
   dto/             Request/response objects

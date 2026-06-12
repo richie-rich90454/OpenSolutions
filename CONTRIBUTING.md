@@ -1,4 +1,4 @@
-# Contributing to OpenSolutions
+# Contributing to LernChih
 
 Thanks for your interest. Contributions are welcome.
 
