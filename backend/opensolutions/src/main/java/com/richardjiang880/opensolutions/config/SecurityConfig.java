@@ -22,6 +22,9 @@ import java.util.List;
 
 @Configuration
 @EnableWebSecurity
+/**
+ * Spring Security configuration with JWT stateless authentication.
+ */
 public class SecurityConfig {
 
     private final JwtAuthFilter jwtAuthFilter;
