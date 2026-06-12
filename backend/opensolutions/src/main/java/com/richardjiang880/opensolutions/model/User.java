@@ -6,6 +6,10 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * User entity representing an authenticated user in the system.
+ * Supports roles, email verification, and gamification credits.
+ */
 @Entity
 @Table(name = "users")
 @Getter
