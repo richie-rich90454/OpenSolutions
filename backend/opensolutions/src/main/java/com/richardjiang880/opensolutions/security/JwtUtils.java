@@ -33,6 +33,7 @@ public class JwtUtils {
 
         return Jwts.builder()
                 .subject(user.getEmail())
+                // Include role as a custom claim for authorization
                 .claim("role", user.getRole().name())
                 .issuedAt(now)
                 .expiration(expiryDate)
