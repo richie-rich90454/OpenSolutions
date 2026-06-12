@@ -41,6 +41,7 @@ public class ChannelController {
         this.userRepository = userRepository;
     }
 
+    // Channels are read-only - consider caching for production
     @GetMapping
     public ResponseEntity<List<ChannelResponse>> getChannels() {
         List<ChannelResponse> channels = channelRepository.findAll().stream()
