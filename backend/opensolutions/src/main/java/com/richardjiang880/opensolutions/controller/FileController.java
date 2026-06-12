@@ -35,7 +35,7 @@ public class FileController {
                 return ResponseEntity.notFound().build();
             }
 
-            // Try to figure out a reasonable content type
+            // Determine content type from file extension
             String contentType = "application/octet-stream";
             String lowerName = filename.toLowerCase();
             if (lowerName.endsWith(".pdf")) {
