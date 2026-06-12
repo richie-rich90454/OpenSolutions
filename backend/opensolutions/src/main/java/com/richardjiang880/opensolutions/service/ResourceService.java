@@ -18,6 +18,9 @@ import java.util.List;
 import java.util.UUID;
 
 @Service
+/**
+ * Service for resource CRUD, file uploads, and upvote management.
+ */
 public class ResourceService {
 
     private final ResourceRepository resourceRepository;
