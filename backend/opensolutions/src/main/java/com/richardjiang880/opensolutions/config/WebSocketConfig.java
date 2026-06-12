@@ -23,6 +23,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
         registry.enableSimpleBroker("/topic");
+        // Client messages sent to /app/** are routed to @MessageMapping methods
         registry.setApplicationDestinationPrefixes("/app");
     }
 }
