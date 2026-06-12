@@ -3,6 +3,8 @@ package com.richardjiang880.opensolutions.service;
 import com.richardjiang880.opensolutions.dto.*;
 import com.richardjiang880.opensolutions.model.*;
 import com.richardjiang880.opensolutions.repository.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
@@ -14,6 +16,8 @@ import org.springframework.transaction.annotation.Transactional;
  * Service for managing discussion threads in resources and channels.
  */
 public class ThreadService {
+
+    private static final Logger log = LoggerFactory.getLogger(ThreadService.class);
 
     private final ResourcePostRepository resourcePostRepository;
     private final ResourceThreadRepository resourceThreadRepository;
